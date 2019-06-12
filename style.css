@@ -1,8 +1,10 @@
 #title {
-       background-color:#48D1CC;
-       hight: 10px;
-       width: 500px;
+       background-color:#95e1b2;
+       hight: 50px;
+       width: auto;
        margin: 0 auto;
+       border-style: none none solid none;
+       border-width: 3px;
 
 }
 
@@ -18,12 +20,13 @@
 
 }
 
-/* Image centered (100%)*/
+/* Image centered (100%) + Opacity*/
 .imagecenter{
        display: block;
        margin-left: auto;
        margin-right: auto;
        width:100%;
+       opacity: 0.5;
 }
 
 /* Container Img+Text*/
