@@ -18,7 +18,7 @@ header{
        text-align: center;
 }
 body{
-     margin: 50px 10px 400px 10px;
+     margin: 50px 10px 1000px 10px;
      font-family: Impact, Charcoal, sans-serif;
      font-size: 17px;
 }
@@ -57,57 +57,51 @@ footer{
        opacity: 0.5;
 }
 
+/* bodies page 2*/
+.bodyright{
+       position: absolute;
+       top: 65px;
+       right: 20px;
+       width: 50%;
+}
 
-/* Top right text*/
-.top-right{
-  position: absolute;
-  top: 80px;
-  right: 60px;
-}
-/* Top left text */
-.top-left{
-  position: absolute;
-  top: 80px;
-  left: 60px;
-}
-/* Bottom left text */
-.bottom-left{
-  position: absolute;
-  bottom: 180px;
-  left: 160px;
-}
-/* Bottom right text */
-.bottom-right{
-  position: absolute;
-  bottom: 40px;
-  right: 50px;
-}
-/* Centered text */
-.centered{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.tracklist{
-     background-color: orange;
-     border: solid;
-     border-radius: 30px;
-     padding-top: 50px;
-     padding-bottom: 50px;
-     font-size: 50px;
-     margin-left: 150px;
-     margin-right: 150px;
+.comingsoon{
+       border: solid;
+       border-radius: 5px;
+       width: 671px;
+       padding-top: 50px;
+       padding-bottom: 50px;
 
 
 }
-.tracklist:hover{
-     background-color: none;
-     width: auto;
-     border: solid;
-     border-radius: 50px;
-     margin-left: 0px;
-     margin-right: 0px;
 
-
+.bodyleft{
+       position: absolute;
+       top: 40px;
+       left:20px;
+       width: 50%;
+       font-size:30px;
 }
+
+.blockleft1{
+       position: relative;
+       padding-left: 100px;
+       padding-top: 50px
+}
+.blockleft2{
+       position: relative;
+       padding-left: 100px;
+       padding-top: 65px
+}
+.blockleft3{
+       position: relative;
+       padding-left: 100px;
+       padding-top: 65px
+}
+
+
+/* iframe style */
+.embed{
+        width: 100%;
+        hight: 300px;
+        }
