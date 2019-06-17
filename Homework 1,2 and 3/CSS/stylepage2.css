@@ -66,9 +66,10 @@ footer{
 }
 
 .comingsoon{
+       position: relative;
        border: solid;
        border-radius: 5px;
-       width: 671px;
+       width: auto;
        padding-top: 50px;
        padding-bottom: 50px;
 
@@ -76,26 +77,32 @@ footer{
 }
 
 .bodyleft{
+       background-color: orange;
        position: absolute;
-       top: 40px;
+       top: 65px;
        left:20px;
-       width: 50%;
-       font-size:30px;
+       width: 44%;
+       font-size:3vw;
 }
 
 .blockleft1{
+       border: solid;
        position: relative;
-       padding-left: 100px;
-       padding-top: 50px
+       padding-left: 50px;
+       padding-top: 25px;
+       padding-bottom: 25px;
+       width: auto;
 }
 .blockleft2{
+       border: solid;
        position: relative;
-       padding-left: 100px;
+       padding-left: 50px;
        padding-top: 65px
 }
 .blockleft3{
+       border: solid;
        position: relative;
-       padding-left: 100px;
+       padding-left: 50px;
        padding-top: 65px
 }
 
@@ -105,3 +112,33 @@ footer{
         width: 100%;
         hight: 300px;
         }
+
+/*new struct*/
+.lineone{
+       background-color: orange;
+       position: relative;
+       margin-top: 80px;
+       height: 200px;
+       width: 100%;
+}
+.linetwo{
+       background-color: yellow;
+       position: relative
+       margin-top: 0px;
+       height: 200px;
+       width: 100%;
+}
+.linethree{
+       background-color: black;
+       position: relative;
+       margin-top: 0px;
+       height: 200px;
+       width: 100%;
+}
+.linefour{
+       background-color: red;
+       position: relative;
+       margin-top: 0px;
+       height: 200px;
+       width: 100%;
+       }
