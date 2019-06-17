@@ -4,53 +4,44 @@
 header{
        position: fixed;
        top: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       hight: 50px;
+       width: 100%;
        background-color:#95e1b2;
-       hight: 100px;
-       width: auto;
        border-style: none none solid none;
        border-width: 3px;
        font-family: Impact, Charcoal, sans-serif;
-       font-size: 1000px;
+       font-size: 40px;
        font-line-height:60px;
+       text-align: center;
 }
 body{
+     margin: 50px 10px 400px 10px;
      font-family: Impact, Charcoal, sans-serif;
-     font-size: 16px;
+     font-size: 17px;
+     font-line-height: 50px;
 }
 footer{
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       hight: 50px;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: solid none none none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 40px;
+       font-line-height:60px;
+       text-align: center;
 }
 
 /*Classes*/
 
-
-
-
-
-
-
-
-
-
-#containertitle{
-       position:
-
-
-}
-
-
-#title{
-       position: fixed;
-       top: 0;
-       background-color:#95e1b2;
-       hight: 100px;
-       width: auto;
-       border-style: none none solid none;
-       border-width: 3px;
-       font-family: Impact, Charcoal, sans-serif;
-       font-size: 50px;
-       font-line-height:60px;
-
-}
 
 .main{
        width: 200px;
@@ -93,8 +84,8 @@ footer{
 /* Top left text */
 .top-left{
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 40px;
+  left: 50px;
 }
 /* Bottom left text */
 .bottom-left{
@@ -105,8 +96,8 @@ footer{
 /* Bottom right text */
 .bottom-right{
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 40px;
+  right: 50px;
 }
 /* Centered text */
 .centered{
