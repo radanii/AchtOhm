@@ -18,7 +18,7 @@ header{
        text-align: center;
 }
 body{
-     margin: 50px 10px 400px 10px;
+     margin: 50px 10px 300px 10px;
      font-family: Impact, Charcoal, sans-serif;
      font-size: 17px;
 }
@@ -79,8 +79,8 @@ footer{
 /* Bottom right text */
 .bottom-right{
   position: absolute;
-  bottom: 40px;
-  right: 50px;
+  bottom: -200px ;
+  right: 100px;
 }
 /* Centered text */
 .centered{
@@ -111,3 +111,4 @@ footer{
 
 
 }
+
