@@ -1,0 +1,204 @@
+
+
+/*header,body,footer*/
+header{
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: none none solid none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 40px;
+       text-align: center;
+}
+body{
+       /*background-image: url("D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\DOCS\pexels-photo-2425692.jpeg");
+       WIESO GEHT DAS NICHT? Einbetten in CSS scheint unmöglich.Weder in body noch über classes wird das Bild angezeigt!*/
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 50px 30px 800px 30px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 22px;
+       height: 100%;
+}
+
+footer{
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: solid none none none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 40px;
+       text-align: center;
+}
+background{
+           background-repeat: no-repeat;
+           witdh:100%; }
+
+/* iframe style */
+iframe{ position: relative;
+
+        width: 100%;
+        height: 196px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border-right: 20px;
+         }
+
+/*Classes*/
+
+/* Text centered*/
+.textcenter{
+        text-align: center;
+
+}
+
+/* Image centered (100%) + Opacity*/
+.imagecenter{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:100%;
+       opacity: 0.5;
+}
+
+
+
+
+
+/*new struct*/
+.lineone{
+       border: solid;
+       border-radius: 15px 50px;
+       background-color: rgb(255,112,0, 0.6);
+       box-shadow: 5px 5px 7px #111;
+       text-shadow: 1px 1px 0.5px #444;
+       position: relative;
+       margin-top: 80px;
+       height: 200px;
+       display: flex;
+       line-height: 2;
+}
+
+.linetwo{
+       border: solid;
+       border-radius: 15px 50px;
+       background-color: rgb(255,112,0,0.6);
+       box-shadow: 5px 5px 7px #111;
+       text-shadow: 1px 1px 0.5px #444;
+       position: relative;
+       margin-top: 30px;
+       height: 200px;
+       display: flex;
+       line-height: 2;
+}
+
+.linecomingsoon{
+       border: solid;
+       border-radius: 15px 50px;
+       background-color: rgb(255,112,0,0.6);
+       box-shadow: 5px 5px 7px #111;
+       text-shadow: 1px 1px 0.5px #444;
+       position: relative;
+       margin-top: 30px;
+       height: 200px;
+       display: flex;
+       line-height: 2;
+       justify-content: center;
+       align-items:center;
+}
+a.linelink{
+       border: solid;
+       border-radius: 15px 50px;
+       background-color: rgb(255,112,0,0.6);
+       box-shadow: 5px 5px 7px #111;
+       text-shadow: 1px 1px 0.5px #444;
+       position: relative;
+       margin-top: 30px;
+       height: 200px;
+       display: flex;
+       line-height: 2;
+       justify-content: center;
+       align-items:center;
+}
+
+.lineone:hover{
+      background-color:rgb(255,112,0,0.9);
+
+}
+
+.linetwo:hover{
+      background-color:rgb(255,112,0,0.9);
+}
+
+.linecomingsoon:hover{
+      background-color:rgb(255,112,0,0.9);
+}
+
+.linelink:hover{
+      background-color:rgb(255,112,0,0.9);
+}
+
+.leftside{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex: 1;
+       padding-left: 50px;
+       max-width: 160px;
+       max-height: 200px;
+}
+
+.middle{
+display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex: 1;
+       max-width: 200px;
+       max-height: 200px;
+       min-width: auto;
+
+}
+.rightside{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex: 1;
+       padding: 2rem;
+       padding-right: 100px;
+}
+/*Social Media Buttons*/
+
+.fa {
+       padding: 3px;
+       margin-bottom: 2px;
+       font-size: 25px;
+       width: 50px;
+       text-align: center;
+       text-decoration: none;
+       margin-left: 65px;
+       border-radius: 50%;
+}
+
+.fa:hover {
+       opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+      background: #3B5998;
+      color: white;
+}
+
+.fa-youtube {
+      background: #bb0000;
+      color: white;

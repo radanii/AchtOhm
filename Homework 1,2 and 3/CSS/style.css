@@ -1,0 +1,143 @@
+
+
+/*header,body,footer*/
+header{
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       hight: 50px;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: none none solid none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 40px;
+       font-line-height:60px;
+       text-align: center;
+}
+body{
+     margin: 50px 10px 0px 10px;
+     font-family: Impact, Charcoal, sans-serif;
+     font-size: 17px;
+}
+
+footer{
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       hight: 50px;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: solid none none none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 40px;
+       font-line-height:60px;
+       text-align: center;
+
+}
+
+/*Classes*/
+
+/* Text centered*/
+.textcenter{
+      text-align: center;
+
+}
+
+/* Image centered (100%) + Opacity*/
+.imagecenter{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:100%;
+       opacity: 0.5;
+}
+
+
+/* Top right text*/
+.top-right{
+      position: absolute;
+      top: 80px;
+      right: 60px;
+}
+/* Top left text */
+.top-left{
+      position: absolute;
+      top: 80px;
+      left: 60px;
+}
+/* Bottom left text */
+.bottom-left{
+  position: absolute;
+      bottom: 180px;
+      left: 160px;
+}
+/* Bottom right text */
+.bottom-right{
+      position: absolute;
+      bottom: -100px ;
+      right: 100px;
+}
+/* Centered text */
+.centered{
+      position: relative;
+      top: 200px;
+      bottom:200px;
+
+
+
+}
+.tracklist{
+     background-color: orange;
+     border: solid;
+     border-radius: 30px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     font-size: 50px;
+     margin-left: 150px;
+     margin-right: 150px;
+     transition: 1s;
+     opacity: 0.7;
+
+}
+.tracklist:hover{
+     background-color: none;
+     width: auto;
+     border: solid;
+     border-radius: 50px;
+     margin-left: 0px;
+     margin-right: 0px;
+     opacity: 1;
+}
+
+/*Social Media Buttons*/
+
+.fa {
+       padding: 3px;
+       margin-bottom: 2px;
+       font-size: 25px;
+       width: 50px;
+       text-align: center;
+       text-decoration: none;
+       margin-left: 65px;
+       border-radius: 50%;
+}
+
+.fa:hover {
+       opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+      background: #3B5998;
+      color: white;
+}
+
+.fa-youtube {
+      background: #bb0000;
+      color: white;
