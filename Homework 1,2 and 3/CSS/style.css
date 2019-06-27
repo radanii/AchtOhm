@@ -7,20 +7,21 @@ header{
        left: 0;
        right: 0;
        z-index: 9999;
-       hight: 50px;
        width: 100%;
        background-color:#95e1b2;
        border-style: none none solid none;
        border-width: 3px;
        font-family: Impact, Charcoal, sans-serif;
        font-size: 40px;
-       font-line-height:60px;
        text-align: center;
 }
 body{
      margin: 50px 10px 0px 10px;
      font-family: Impact, Charcoal, sans-serif;
      font-size: 17px;
+
+
+
 }
 
 footer{
@@ -29,14 +30,12 @@ footer{
        left: 0;
        right: 0;
        z-index: 9999;
-       hight: 50px;
        width: 100%;
        background-color:#95e1b2;
        border-style: solid none none none;
        border-width: 3px;
        font-family: Impact, Charcoal, sans-serif;
        font-size: 40px;
-       font-line-height:60px;
        text-align: center;
 
 }
@@ -141,3 +140,26 @@ footer{
 .fa-youtube {
       background: #bb0000;
       color: white;
+
+
+/*Bootsstrap overwrite*/
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+h2, .h2 {
+   font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0 rem;
+  font-weight: bold;
+  line-height: 1;
+}
