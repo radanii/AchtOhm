@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Callistoteles - Artist Page</title>
     <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <!--Fav.ico integrieren!// SLider aus Frisörsalon/ Akkordion//Popup/gooleMaps-->
     <meta name="keywords" content="music, musicproduction, Callistoteles, electronicbeats">
     <meta name="author" content="Patrick Ohm">
     <link rel="stylesheet" href="CSS/bootstrap.css">
@@ -29,8 +30,54 @@
             class="imagecenter"
             alt="Picture of a clock being sliced">
 
+            <!-- zuerst das Sichtfenster -->
+<div class="cssSlider">
 
-        <div class="top-left">
+    <!-- die inputs um den Slider zu Steuern -->
+    <input type="radio" name="slider" id="slide01" checked="checked">
+    <input type="radio" name="slider" id="slide02">
+    <input type="radio" name="slider" id="slide03">
+    <input type="radio" name="slider" id="slide04">
+
+    <!-- die einzelnen Slides, hier als Liste angelegt -->
+    <ul class="sliderElements">
+        <li>
+            <figure>
+                <img src="DOCS/analog.jpg" alt="Test1" width="1200" height="400">
+                <figcaption>Hier könnte deine Beschreibung stehen.</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="/assets/files/images/eyecatcher/leistungenWebEc.png" alt="Test2" width="1200" height="400">
+                <figcaption>Eine tolle Beschreibung</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="/assets/files/images/eyecatcher/leistungenAutocadEc.jpg" alt="Test3" width="1200" height="400">
+                <figcaption>Die Beschreibung zum dritten Bild</figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="/assets/files/images/eyecatcher/dgKegelschnitteEc.jpg" alt="" width="1200" height="400">
+                <figcaption>Und noch ein toller Untertitel</figcaption>
+            </figure>
+        </li>
+    </ul>
+
+    <!-- Eine Steuerung -->
+    <ul class="sliderControls">
+        <li><label for="slide01">1</label></li>
+        <li><label for="slide02">2</label></li>
+        <li><label for="slide03">3</label></li>
+        <li><label for="slide04">4</label></li>
+    </ul>
+</div>
+
+
+        <!--<div class="top-left">
 
             <h2 class="textimpact">What sub-genres of electronic music<br>
                 will you be hearing?</h2>
@@ -76,7 +123,7 @@
                 <li>Finalize the newest project called "Andromeda"</li>
             </ul>
 
-        </div>
+        </div>-->
 
 
         <a href="My_fakebook_artistpage tracks.html" target="_blank">
