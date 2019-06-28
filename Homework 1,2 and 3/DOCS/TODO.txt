@@ -1,0 +1,18 @@
+<!--Fav.ico integrieren!// SLider aus Frisörsalon/ Akkordion//Popup/gooleMaps-->
+
+1) Aufräumen--> Ornderstrukur/ Bennenung der files /Korrrektur der Anker in HTML/CSS
+
+2) Integration Slider (Frisörsalon als Hilfe)
+
+3) Integration Akkordeon/Popup-Fenster
+
+4) Google-Maps --> Köln als Hintergrund bei Kontakt.( Opacity 0.5?)
+
+5) Fav-Icon einfügen!
+
+6) Responsive Design als Nebenziel.
+
+7) Content überarbeiten.
+
+8) Funktionalität überlegen--> Kontaktformular / Web-shop Samples und Tracks?
+
