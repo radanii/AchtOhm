@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38c84f75-a590-4a90-ab23-e4aee53d7413" name="Default Changelist" comment="" />
+    <list default="true" id="38c84f75-a590-4a90-ab23-e4aee53d7413" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/CSS/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/CSS/stylepage2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylepage2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/Antidote.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Antidote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/analog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/analog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/pexels-photo-2425692.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pexels-photo-2425692.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/My_fakebook_artistpage.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,37 +22,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage.html">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
+            <state relative-caret-position="-4197" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage tracks.html">
+        <entry file="file://$PROJECT_DIR$/css/stylepage2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="117" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="117" />
+            <state relative-caret-position="-335" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1593">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/CSS/style.css">
+        <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/CSS/stylepage2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3094">
-              <caret line="182" column="26" lean-forward="true" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+            <state relative-caret-position="-811">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -99,6 +106,8 @@
         <option value="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage tracks.html" />
         <option value="$PROJECT_DIR$/Homework 1,2 and 3/CSS/style.css" />
         <option value="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage.html" />
+        <option value="$PROJECT_DIR$/html/My_fakebook_artistpage.html" />
+        <option value="$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html" />
       </list>
     </option>
   </component>
@@ -118,13 +127,28 @@
         <subPane>
           <expand>
             <path>
-              <item name="Homework-Fakebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework-Fakebook" type="462c0819:PsiDirectoryNode" />
+              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Homework-Fakebook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework-Fakebook" type="462c0819:PsiDirectoryNode" />
+              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
               <item name="Homework 1,2 and 3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,18 +158,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Exercises/frontend_00500_bootstrap" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
     <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3" />
-      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\CSS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\CSS" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\HTML" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\html" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\docs" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\css" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\CSS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,6 +199,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560292174501</updated>
+      <workItem from="1561728432926" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="Img This Time as background for text. Title background in the same color.&#10;+some minor changes.">
       <created>1560371319355</created>
@@ -244,6 +274,9 @@
     <option name="localTasksCounter" value="11" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="443000" />
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -255,10 +288,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.13318452" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.37821484" />
       <window_info id="Structure" order="1" sideWeight="0.5057283" side_tool="true" weight="0.20163691" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -270,6 +306,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,6 +331,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
@@ -361,21 +402,48 @@
     <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage tracks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="117" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="117" />
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/CSS/stylepage2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3094">
-          <caret line="182" column="26" lean-forward="true" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+          <caret line="182" column="20" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylepage2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1593">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-811">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
