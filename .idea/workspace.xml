@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38c84f75-a590-4a90-ab23-e4aee53d7413" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/CSS/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/CSS/stylepage2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylepage2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/Antidote.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Antidote.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/TODO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/analog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/analog.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/DOCS/pexels-photo-2425692.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/pexels-photo-2425692.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/My_fakebook_artistpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/AchtOhm_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/AchtOhm_home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,31 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4197" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylepage2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1593">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="461">
+              <caret line="168" selection-start-line="168" selection-end-line="168" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html">
+        <entry file="file://$PROJECT_DIR$/html/AchtOhm_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-811">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -108,6 +86,10 @@
         <option value="$PROJECT_DIR$/Homework 1,2 and 3/My_fakebook_artistpage.html" />
         <option value="$PROJECT_DIR$/html/My_fakebook_artistpage.html" />
         <option value="$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html" />
+        <option value="$PROJECT_DIR$/html/AchtOhm_shop.html" />
+        <option value="$PROJECT_DIR$/html/AchtOhm_contact.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/html/AchtOhm_home.html" />
       </list>
     </option>
   </component>
@@ -139,11 +121,6 @@
               <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
               <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
-              <item name="Homework 1,2 and 3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560292174501</updated>
-      <workItem from="1561728432926" duration="443000" />
+      <workItem from="1561728432926" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="Img This Time as background for text. Title background in the same color.&#10;+some minor changes.">
       <created>1560371319355</created>
@@ -271,11 +248,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561384786026</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="folder-structure changed.&#10;site renamed.">
+      <created>1561728936724</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561728936724</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Acht-Ohm//Rename&#10;Homework folder-deleted.">
+      <created>1561729279781</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561729279781</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443000" />
+    <option name="totallyTimeSpent" value="1155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +279,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.37821484" />
       <window_info id="Structure" order="1" sideWeight="0.5057283" side_tool="true" weight="0.20163691" />
@@ -383,7 +373,9 @@
     <MESSAGE value="make-up css structure/layout" />
     <MESSAGE value="Page 1 edit:&#10;added some more content&#10;responsive design still needs to be done&#10;social media buttons&#10;&#10;Page 2 edit:&#10;new background-image&#10;responsive flex boxes with embed´ SC-players&#10;social media buttons" />
     <MESSAGE value="deleted unused file." />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted unused file." />
+    <MESSAGE value="folder-structure changed.&#10;site renamed." />
+    <MESSAGE value="Acht-Ohm//Rename&#10;Homework folder-deleted." />
+    <option name="LAST_COMMIT_MESSAGE" value="Acht-Ohm//Rename&#10;Homework folder-deleted." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/DOCS/Antidote.png">
@@ -423,27 +415,43 @@
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4197" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/stylepage2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-335" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage.html">
+    <entry file="file://$PROJECT_DIR$/html/AchtOhm_shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1593">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/My_fakebook_artistpage tracks.html">
+    <entry file="file://$PROJECT_DIR$/html/AchtOhm_contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/AchtOhm_tracks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/AchtOhm_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
