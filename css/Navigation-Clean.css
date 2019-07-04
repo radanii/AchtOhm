@@ -1,7 +1,4 @@
 .navigation-clean {
-  background: #fff;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
   color: #333;
   border-radius: 0;
   box-shadow: none;
@@ -11,8 +8,7 @@
 
 @media (min-width:768px) {
   .navigation-clean {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+
   }
 }
 
@@ -70,7 +66,7 @@
 }
 
 .navigation-clean .dropdown-menu .dropdown-item:focus, .navigation-clean .dropdown-menu .dropdown-item {
-  line-height: 2;
+  line-height: 1;
   color: #37434d;
 }
 
@@ -79,3 +75,6 @@
   color: inherit;
 }
 
+.navbar{
+ padding: .2rem;
+}

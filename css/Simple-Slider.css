@@ -1,5 +1,5 @@
 .simple-slider .swiper-slide {
-  height: 500px;
+  height: 560px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -9,6 +9,10 @@
   width: 50px;
   margin-left: 20px;
   margin-right: 20px;
+}
+.simple-slider{
+  margin-top: 50px;
+
 }
 
 @media (max-width:767px) {
@@ -23,3 +27,22 @@
   }
 }
 
+
+.textinslide{
+  padding: 20px 40px;
+  background: rgb(112,128,144,0.8);
+  border: solid;
+       border-radius: 50px 50px;
+       box-shadow: 5px 5px 7px #111;
+  text-align: center;
+  font-size: 56px;
+  position: relative; left:50%; top:40%;
+  transform: translateX(-50%);
+  color: rgb(255,112,0,0.8);
+  max-width: 300px;
+}
+
+.textinslide:hover{
+  background: rgb(0,0,0);
+  border-width: 4px;
+}

@@ -1,6 +1,6 @@
 
 
-/*header,body,footer*/
+/***********************************************header,body,footer,iframe************************************/
 header{
        position: fixed;
        top: 0;
@@ -12,12 +12,10 @@ header{
        border-style: none none solid none;
        border-width: 3px;
        font-family: Impact, Charcoal, sans-serif;
-       font-size: 40px;
+       font-size: 30px;
        text-align: center;
 }
 body{
-       /*background-image: url("D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\DOCS\pexels-photo-2425692.jpeg");
-       WIESO GEHT DAS NICHT? Einbetten in CSS scheint unmöglich.Weder in body noch über classes wird das Bild angezeigt!*/
        background-repeat: no-repeat;
        background-size: cover;
        margin: 50px 30px 800px 30px;
@@ -38,12 +36,16 @@ footer{
        border-style: solid none none none;
        border-width: 3px;
        font-family: Impact, Charcoal, sans-serif;
-       font-size: 40px;
+       font-size: 30px;
        text-align: center;
 }
 background{
            background-repeat: no-repeat;
            witdh:100%; }
+
+
+
+
 
 /* iframe style */
 iframe{ position: relative;
@@ -55,7 +57,7 @@ iframe{ position: relative;
         border-right: 20px;
          }
 
-/*Classes*/
+/***************************************************Classes***************************************************/
 
 /* Text centered*/
 .textcenter{
@@ -72,7 +74,10 @@ iframe{ position: relative;
        opacity: 0.5;
 }
 
-
+.logo{
+   max-height: 46px;
+    max-width: 36px;
+}
 
 
 
@@ -177,7 +182,7 @@ display: flex;
        padding: 2rem;
        padding-right: 100px;
 }
-/*Social Media Buttons*/
+/**********************************************Social Media Buttons***************************************/
 
 .fa {
        padding: 3px;
@@ -205,7 +210,7 @@ display: flex;
       color: white;
 }
 
-/*Bootsstrap overwrite*/
+/********************************************Bootstrap overwrite**************************************/
 
 *,
 *::before,
