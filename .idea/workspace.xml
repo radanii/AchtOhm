@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38c84f75-a590-4a90-ab23-e4aee53d7413" name="Default Changelist" comment="Acht-Ohm//Rename&#10;Homework folder-deleted.">
-      <change afterPath="$PROJECT_DIR$/js/accordion.js" afterDir="false" />
+    <list default="true" id="38c84f75-a590-4a90-ab23-e4aee53d7413" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Homework-Fakebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homework-Fakebook.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchtOhm_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/AchtOhm_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AchtOhm_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/AchtOhm_tracks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Navigation-Clean.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Navigation-Clean.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Simple-Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Simple-Slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stylepage2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylepage2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchtOhm_contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchtOhm_home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchtOhm_shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AchtOhm_tracks.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/tracks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Footer-Basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/Footer-Basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Navigation-Clean.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/Navigation-Clean.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Simple-Slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/Simple-Slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylepage2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/stylepage2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Antidote.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Antidote.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/TODO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/TODO.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/analog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/analog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/contact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/contact2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/contact2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/pexels-photo-2425692.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/pexels-photo-2425692.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/shop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/shop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Simple-Slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/Simple-Slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unuseddocs/Euler's_infinity_sign.svg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Euler's_infinity_sign.svg.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,37 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/accordion.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/stylepage2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="101" column="36" selection-start-line="98" selection-start-column="6" selection-end-line="101" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AchtOhm_home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="595">
+              <caret line="35" column="84" lean-forward="true" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -60,36 +54,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/Simple-Slider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/Navigation-Clean.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AchtOhm_tracks.html">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="82" />
+            <state relative-caret-position="187">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -99,6 +70,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -157,14 +129,17 @@
         <option value="$PROJECT_DIR$/css/stylepage2.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/Simple-Slider.css" />
+        <option value="$PROJECT_DIR$/aoäihfipsa.py" />
         <option value="$PROJECT_DIR$/AchtOhm_home.html" />
+        <option value="$PROJECT_DIR$/templates/AchtOhm_home.html" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="298" />
-    <option name="width" value="755" />
-    <option name="height" value="735" />
+    <option name="width" value="800" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,27 +158,7 @@
             <path>
               <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
               <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AchtOhm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AchtOhm" type="462c0819:PsiDirectoryNode" />
-              <item name="unuseddocs" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -212,24 +167,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Vorlage Bootstrap" />
-    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Exercises/webapp_00100_first_app/example_00320_intro_add_handler_exercise" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm" />
-      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3" />
-      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\CSS" />
-      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\HTML" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\html" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\docs" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\css" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3" />
       <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3\CSS" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\static\img" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\static" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm\templates" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\AchtOhm" />
+      <recent name="D:\Development\WorkspacePyCharm\GitHub Repositories\Homework-Fakebook\Homework 1,2 and 3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,6 +203,39 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AchtOhm/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Homework-Fakebook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -255,7 +247,13 @@
       <option name="presentableId" value="Default" />
       <updated>1560292174501</updated>
       <workItem from="1561728432926" duration="1155000" />
-      <workItem from="1562229734405" duration="16121000" />
+      <workItem from="1562229734405" duration="17312000" />
+      <workItem from="1562255467610" duration="1880000" />
+      <workItem from="1563306461598" duration="245000" />
+      <workItem from="1563440689758" duration="220000" />
+      <workItem from="1564605554580" duration="845000" />
+      <workItem from="1564653708936" duration="18000" />
+      <workItem from="1564997521158" duration="3732000" />
     </task>
     <task id="LOCAL-00001" summary="Img This Time as background for text. Title background in the same color.&#10;+some minor changes.">
       <created>1560371319355</created>
@@ -348,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562230186964</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Slider/Accordion + minor changes">
+      <created>1562250887987</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562250887987</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17276000" />
+    <option name="totallyTimeSpent" value="25407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,12 +372,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.20953101" />
       <window_info id="Structure" order="1" sideWeight="0.5057283" side_tool="true" weight="0.20163691" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16366611" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -380,7 +386,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.95090014" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -462,7 +468,11 @@
     <MESSAGE value="deleted unused file." />
     <MESSAGE value="folder-structure changed.&#10;site renamed." />
     <MESSAGE value="Acht-Ohm//Rename&#10;Homework folder-deleted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acht-Ohm//Rename&#10;Homework folder-deleted." />
+    <MESSAGE value="Slider/Accordion + minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider/Accordion + minor changes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AchtOhm$main.coverage" NAME="main Coverage Results" MODIFIED="1564999916942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Homework 1,2 and 3/DOCS/Antidote.png" />
@@ -475,48 +485,56 @@
     <entry file="file://$PROJECT_DIR$/html/AchtOhm_contact.html" />
     <entry file="file://$PROJECT_DIR$/html/AchtOhm_tracks.html" />
     <entry file="file://$PROJECT_DIR$/html/AchtOhm_home.html" />
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylepage2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="101" column="36" selection-start-line="98" selection-start-column="6" selection-end-line="101" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/Navigation-Clean.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/accordion.js">
+    <entry file="file://$PROJECT_DIR$/static/js/accordion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/static/css/stylepage2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
+        <state relative-caret-position="240">
+          <caret line="101" column="36" selection-start-line="98" selection-start-column="6" selection-end-line="101" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/Simple-Slider.css">
+    <entry file="file://$PROJECT_DIR$/static/css/Simple-Slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AchtOhm_home.html">
+    <entry file="file://$PROJECT_DIR$/templates/tracks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoäihfipsa.py" />
+    <entry file="file://$PROJECT_DIR$/static/css/Navigation-Clean.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="204" column="21" selection-start-line="204" selection-start-column="21" selection-end-line="204" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="84" lean-forward="true" selection-start-line="35" selection-start-column="84" selection-end-line="35" selection-end-column="84" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -525,10 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AchtOhm_tracks.html">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="82" />
+        <state relative-caret-position="187">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>

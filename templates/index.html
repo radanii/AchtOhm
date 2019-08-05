@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Acht Ohm - Artist Page</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="music, musicproduction, AchtOhm, electronicbeats" name="keywords">
+    <meta content="Patrick Ohm" name="author">
+    <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css" rel="stylesheet">
+    <link href="../static/css/Navigation-Clean.css" rel="stylesheet">
+    <link href="../static/css/Simple-Slider.css" rel="stylesheet">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../static/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+
+<body>
+
+<header>
+
+    <div>
+        <nav class="navbar navbar-light navigation-clean">
+            <div class="container"><a class="navbar-brand" href="index.html"><img class="logo"
+                                                                                  src="../static/img/Euler's_infinity_sign.svg.png"></a>
+                Acht Ohm - Electronic Beats
+                <button class="navbar-toggler" data-target="#navcol-1" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                     id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="{{ url_for('tracks')}}">Home</a>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link"
+                                                                    href="tracks.html">Tracks</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item" role="presentation"><a class="nav-link"
+                                                                    href="contact.html">Contact</a></li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<p></p>
+<p></p>
+<p></p>
+
+
+<div class="simple-slider">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(../static/img/analog.jpg);"><a href="tracks.html"
+                                                                                        target="_blank">
+                <button class="textinslide">Tracks</button>
+            </a></div>
+            <div class="swiper-slide" style="background-image:url(../static/img/shop.jpg);"><a href="shop.html"
+                                                                                      target="_blank">
+                <button class="textinslide">Shop</button>
+            </a></div>
+            <div class="swiper-slide" style="background-image:url(../static/img/contact2.jpg);"><a href="contact.html"
+                                                                                         target="_blank">
+                <button class="textinslide">Contact</button>
+            </a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+<div class="containeracc textcenter">
+    <button class="accordion">What types of music will you be hearing?</button>
+    <div class="panel">
+        <p>
+            Underground techno<br>
+            Deephouse<br>
+            Experimental
+        </p>
+    </div>
+
+    <button class="accordion">Which gear I used:</button>
+    <div class="panel">
+        <p>
+            Set of Rokit 6's<br>
+            Focusrite Audio Interface<br>
+            Akai MPK MIDI Console<br>
+            Ableton Push 2<br>
+            Ableton as DAW
+        </p>
+    </div>
+
+    <button class="accordion">Who I got my inspiration from:</button>
+    <div class="panel">
+        <p>
+            <a href="https://soundcloud.com/monolink" target="_blank">Monolink // Berlin</a><br>
+            <a href="https://soundcloud.com/recondite_music" target="_blank">Recondite // Berlin</a><br>
+            <a href="https://soundcloud.com/enrico-sangiuliano" target="_blank">Enrico Sangiuliano // Milan</a><br>
+            <a href="https://soundcloud.com/ame" target="_blank">Âme // Berlin</a><br>
+            <a href="https://soundcloud.com/dosem" target="_blank">Dosem // Girona</a>
+        </p>
+    </div>
+
+    <button class="accordion">Next upcoming projects:</button>
+    <div class="panel">
+        <p>
+        <ul type=circle>
+            <li>Produce a track containing recorded guitars + vocals</li>
+            <li>Produce a track in collaboration with another artist</li>
+            <li>Finalize the newest project called "Andromeda"</li>
+        </ul>
+        </p>
+    </div>
+</div>
+
+
+<script src="../static/js/jquery.min.js"></script>
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+<script src="../static/js/Simple-Slider.js"></script>
+<script src="../static/js/accordion.js"></script>
+
+
+<footer>
+    Social Media
+    <a class="fa fa-facebook" href="https://www.facebook.com/mhokcirtap" target="_blank"></a>
+    <a class="fa fa-youtube" href="https://www.youtube.com/user/Callistoteles/channels?view=56&shelf_id=0"
+       target="_blank"></a>
+</footer>
+
+</body>
+</html>
