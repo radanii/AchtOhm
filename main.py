@@ -7,10 +7,9 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/tracks", methods=["GET"])
+@app.route("/tracks")
 def tracks():
-    if request.method == "GET":
-        return redirect(url_for("tracks"))
+        return render_template("tracks.html")
 
 @app.route("/shop")
 def shop():
