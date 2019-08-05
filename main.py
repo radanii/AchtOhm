@@ -9,7 +9,7 @@ def index():
 
 @app.route("/tracks")
 def tracks():
-        return render_template("tracks.html")
+    return render_template("tracks.html")
 
 @app.route("/shop")
 def shop():
