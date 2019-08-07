@@ -1,7 +1,9 @@
+{% from "macros.html" import nav_link with context %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>{{page_title}}</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="music, musicproduction, AchtOhm, electronicbeats" name="keywords">
@@ -16,68 +18,60 @@
 </head>
 
 <body background="{{page_background}}">
-    <header>
+<header>
 
-        <div>
-            <nav class="navbar navbar-light navigation-clean">
-                <div class="container">
-                    <a class="navbar-brand"
-                       href="/">
-                        <img class="logo"
-                             src="../static/img/Euler's_infinity_sign.svg.png"
-                             alt="AchtOhm-Logo">
-                    </a>
+    <div>
+        <nav class="navbar navbar-light navigation-clean">
+            <div class="container">
+                <a class="navbar-brand"
+                   href="/">
+                    <img class="logo"
+                         src="../static/img/Euler's_infinity_sign.svg.png"
+                         alt="AchtOhm-Logo">
+                </a>
 
-                    Acht Ohm - Electronic Beats
+                Acht Ohm - Electronic Beats
 
-                    <button class="navbar-toggler"
-                            data-target="#navcol-1"
-                            data-toggle="collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler"
+                        data-target="#navcol-1"
+                        data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                    <div class="collapse navbar-collapse"
-                         id="navcol-1">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link active"
-                                   href="/">Home
-                                </a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link"
-                                   href="/tracks">Tracks
-                                </a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link"
-                                   href="/shop">Shop
-                                </a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link"
-                                   href="/contact">Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="collapse navbar-collapse"
+                     id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation">
+                            {{ nav_link(".index", "Home")}}
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            {{ nav_link("tracks", "Tracks")}}
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            {{ nav_link("shop", "Shop")}}
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            {{ nav_link("contact", "Contact")}}
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-    </header>
-    <p></p>
-    <p></p>
-    <p></p>
+            </div>
+        </nav>
+    </div>
+</header>
+<p></p>
+<p></p>
+<p></p>
 
 
-    {% block body_contents %}{% endblock %}
+{% block body_contents %}{% endblock %}
 
     <script src="../static/js/jquery.min.js"></script>
     <script src="../static/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
 
-    {% block additional_scripts %}{% endblock %}
+{% block additional_scripts %}{% endblock %}
 </body>
 
 <footer>

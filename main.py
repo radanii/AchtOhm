@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, url_for, redirect
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def index():
     page_title = "Acht Ohm - Artist Page"
@@ -35,5 +36,6 @@ def contact():
                            page_title=page_title,
                            page_background=page_background)
 
+
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
