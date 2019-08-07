@@ -153,6 +153,7 @@ footer{
 *,
 *::before,
 *::after {
+    box-sizing: inherit;
 
 }
 

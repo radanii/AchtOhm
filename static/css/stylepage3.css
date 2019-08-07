@@ -1,0 +1,128 @@
+
+
+/***********************************************header,body,footer,iframe************************************/
+header{
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: none none solid none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 30px;
+       text-align: center;
+}
+body{
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin: 50px 30px 800px 30px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 22px;
+       height: 100%;
+
+}
+
+footer{
+       position: fixed;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 9999;
+       width: 100%;
+       background-color:#95e1b2;
+       border-style: solid none none none;
+       border-width: 3px;
+       font-family: Impact, Charcoal, sans-serif;
+       font-size: 30px;
+       text-align: center;
+}
+background{
+           background-repeat: no-repeat;
+           witdh:100%; }
+
+
+
+/***************************************************Classes***************************************************/
+
+/* Text centered*/
+.textcenter{
+        text-align: center;
+
+}
+
+/* Image centered (100%) + Opacity*/
+.imagecenter{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:100%;
+       opacity: 0.5;
+}
+
+.logo{
+   max-height: 46px;
+    max-width: 36px;
+}
+
+
+
+/*new struct*/
+.lineone{
+       text-shadow: 1px 1px 0.5px #444;
+       position: relative;
+       margin-top: 80px;
+       height: 200px;
+       display: flex;
+       line-height: 2;
+}
+/**********************************************Social Media Buttons***************************************/
+
+.fa {
+       padding: 3px;
+       margin-bottom: 2px;
+       font-size: 25px;
+       width: 50px;
+       text-align: center;
+       text-decoration: none;
+       margin-left: 65px;
+       border-radius: 50%;
+}
+
+.fa:hover {
+       opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+      background: #3B5998;
+      color: white;
+}
+
+.fa-youtube {
+      background: #bb0000;
+      color: white;
+}
+
+/********************************************Bootstrap overwrite**************************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+h2, .h2 {
+   font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0 rem;
+  font-weight: bold;
+  line-height: 1;
+}
