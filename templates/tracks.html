@@ -1,51 +1,13 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Acht Ohm - Tracks</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="music, musicproduction, Callistoteles, electronicbeats">
-    <meta name="author" content="Patrick Ohm">
-    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="../static/css/stylepage2.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../static/img/favicon.ico">
-</head>
+{% extends "base.html" %}
 
 
-<header>Acht Ohm - Elecronic Beats</header>
-<p></p>
-<p></p>
-<p></p>
+{% block additional_stylesheets %}
+    <link rel="stylesheet" href="/static/css/stylepage2.css">
+{% endblock %}
 
-<body background="../static/img/pexels-photo-2425692.jpeg">
 
-<header>
-
-    <div>
-        <nav class="navbar navbar-light navigation-clean">
-            <div class="container"><a class="navbar-brand" href="index.html"><img class="logo" src="../static/img/Euler's_infinity_sign.svg.png"></a>
-                Acht Ohm - Electronic Beats
-                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse"
-                    id="navcol-1">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="tracks.html">Tracks</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="shop.html">Shop</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</header>
-
-   <div class="lineone">
+{% block body_contents %}
+<div class="lineone">
        <div class="leftside">
            Genre:<br>
             BPM:<br>
@@ -62,7 +24,7 @@
            <iframe frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/640909200&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
            </iframe>
        </div>
-   </div>
+</div>
 
    <div class="linetwo">
        <div class="leftside">
@@ -131,18 +93,15 @@
 
 
    </a>
-
-<script src="../static/js/jquery.min.js"></script>
-    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-</body>
+{% endblock %}
 
 
-<footer>
-    Social Media
-    <a href="https://www.facebook.com/mhokcirtap" target="_blank" class="fa fa-facebook"></a>
-    <a href="https://www.youtube.com/user/Callistoteles/channels?view=56&shelf_id=0" target="_blank" class="fa fa-youtube"></a>
-</footer>
+{% block additional_scripts %}
+<!--No additional scripts-->
+{% endblock %}
 
 
-</html>
+<!--<body background="/static/img/pexels-photo-2425692.jpeg">-->
+
+
+
