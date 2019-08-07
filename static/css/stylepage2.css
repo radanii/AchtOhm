@@ -15,6 +15,13 @@ header{
        font-size: 30px;
        text-align: center;
 }
+
+@media (max-width:540px){
+    header{
+        font-size:17px;
+    }
+}
+
 body{
        background-repeat: no-repeat;
        background-size: cover;
@@ -39,6 +46,13 @@ footer{
        font-size: 30px;
        text-align: center;
 }
+
+@media (max-width:540px){
+    footer{
+        font-size:17px;
+    }
+}
+
 background{
            background-repeat: no-repeat;
            witdh:100%; }
@@ -193,6 +207,12 @@ display: flex;
        text-decoration: none;
        margin-left: 65px;
        border-radius: 50%;
+}
+
+@media (max-width: 540px){
+    .fa{
+        font-size: 17px;
+    }
 }
 
 .fa:hover {
