@@ -3,6 +3,7 @@
 
 {% block additional_stylesheets %}
     <link rel="stylesheet" href="/static/css/style_emptypage.css">
+    <link rel="stylesheet" href="/static/css/style_form.css">
 {% endblock %}
 
 
@@ -13,12 +14,15 @@
         <p>This is your email address: {{user.email}}</p>
         <p>This was your delivered message : {{user.message}}</p>
     {% else %}
-        <form method="post" action="/contact/message">
-            <input type="text" name="user-name" placeholder="Enter your name"><br>
-            <input type="email" name="user-email" placeholder="Enter your email address"><br>
-            <input type="text" name="user-message" placeholder="Enter your message to AchtOhm"><br>
-            <button>Submit</button>
-        </form>
+        <div class="form-style">
+            <h1>Contact me</h1>
+            <form method="post" action="/contact/message">
+                <input type="text" name="user-name" placeholder="Enter your name"><br>
+                <input type="email" name="user-email" placeholder="Enter your email address"><br>
+                <textarea name="user-message" placeholder="Enter your message"></textarea><br>
+                <button>Submit</button>
+            </form>
+        </div>
     {% endif %}
     </div>
 

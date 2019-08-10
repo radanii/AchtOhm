@@ -4,6 +4,7 @@ from models import User, db
 app = Flask(__name__)
 db.create_all()
 
+
 @app.route("/", methods=["GET"])
 def index():
     page_title = "Acht Ohm - Artist Page"
@@ -37,7 +38,7 @@ def contact():
 
     if email_address:
         user = db.query(User).filter_by(email=email_address).first()
-        user_message = db.query(User).filter_by(email=email_address).first()
+        user_message = user.message
     else:
         user = None
         user_message = None
@@ -48,11 +49,15 @@ def contact():
                            user=user,
                            message=user_message)
 
-@app.route("/contact/message", methods=["GET","POST"])
+
+@app.route("/contact/message", methods=["GET", "POST"])
 def message():
     name = request.form.get("user-name")
     email = request.form.get("user-email")
     user_message = request.form.get("user-message")
+
+    # Execption: Cookies im browser gelöscht
+    # if email != emails in db:
 
     user = User(name=name, email=email, message=user_message)
 
@@ -62,8 +67,10 @@ def message():
     response = make_response(redirect(url_for("contact")))
     response.set_cookie("email", email)
 
-    return response
+    # else: Hinweis, dass email bereits in db existiert
+    # -->  Springe in if = user Fall bei contact.
 
+    return response
 
 if __name__ == '__main__':
     app.run(debug=True)

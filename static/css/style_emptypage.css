@@ -88,7 +88,6 @@ background{
        text-shadow: 1px 1px 0.5px #444;
        position: relative;
        margin-top: 80px;
-       height: 200px;
        display: flex;
        line-height: 2;
 }

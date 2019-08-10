@@ -1,0 +1,60 @@
+.form-style{
+    max-width: 600px;
+	margin: 10px auto;
+	padding: 16px;
+	background-color: rgb(255,112,0, 0.6);
+}
+
+.form-style h1{
+    background-color:#95e1b2;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: -16px -16px 16px -16px;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style textarea{
+    -webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+    color: #555;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="email"]:focus,
+.form-style textarea:focus{
+    box-shadow: 0 0 6px #43D1AF;
+    padding: 3%;
+    border: 1px solid #95e1b2;
+}
+
+
+.form-style button{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #95e1b2;;
+	border: 2px solid rgb(255,112,0);
+	color: #fff;
+}
+
+
+.form-style button:hover{
+    background: rgb(255,112,0);
+
+}
