@@ -7,7 +7,21 @@
 
 
 {% block body_contents %}
-    <div class="lineone"></div>
+    <div class="lineone">
+        {% if user %}
+        <p>Hello {{user.name}}</p>
+        <p>This is your email address: {{user.email}}</p>
+        <p>This was your delivered message : {{user.message}}</p>
+    {% else %}
+        <form method="post" action="/contact/message">
+            <input type="text" name="user-name" placeholder="Enter your name"><br>
+            <input type="email" name="user-email" placeholder="Enter your email address"><br>
+            <input type="text" name="user-message" placeholder="Enter your message to AchtOhm"><br>
+            <button>Submit</button>
+        </form>
+    {% endif %}
+    </div>
+
     <div class="lineone"></div>
     <div class="lineone"></div>
     <div class="lineone"></div>
