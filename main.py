@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, url_for, redirect, make_respo
 from models import User, db
 
 app = Flask(__name__)
-db.connect()
+
 db.create_all()
 
 
