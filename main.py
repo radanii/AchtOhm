@@ -37,8 +37,8 @@ def login():
             print("Failed to commit db!")
             return "Something went wrong!"
 
-    #if hash_pass != user.password:
-     #   return "The entered password seems to be wrong. Please go back and try again!"
+    if hash_pass != user.password:
+        return "The entered password seems to be wrong. Please go back and try again!"
 
     elif hash_pass == user.password:
         session_token = str(uuid.uuid4())
