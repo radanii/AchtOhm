@@ -1,4 +1,6 @@
 Flask==1.0.2
+Flask-Script
+Flask-Migrate
 gunicorn==19.9.0
 sqla-wrapper
-psycopg2 
+psycopg2

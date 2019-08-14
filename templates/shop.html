@@ -3,11 +3,29 @@
 
 {% block additional_stylesheets %}
     <link rel="stylesheet" href="/static/css/style_emptypage.css">
+    <link rel="stylesheet" href="/static/css/style_form.css">
 {% endblock %}
 
 
 {% block body_contents %}
-    <div class="lineone"></div>
+    <div class="lineone">
+        {% if user %}
+        <p>Hello {{user.name}}</p>
+        <p>This is your email address: {{user.email}}</p>
+        <p>This was your delivered message : {{user.message}}</p>
+
+        {% else %}
+        <div class="form-style">
+            <h1>LOGIN:</h1>
+            <form method="post" action="/login">
+                <input type="text" name="user-name" placeholder="Enter your name"><br>
+                <input type="email" name="user-email" placeholder="Enter your email address"><br>
+                <input type="password" name="user-password" placeholder="Enter your password"><br>
+                <button>Submit</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
     <div class="lineone"></div>
     <div class="lineone"></div>
     <div class="lineone"></div>

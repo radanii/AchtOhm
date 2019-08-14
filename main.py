@@ -1,3 +1,6 @@
+import hashlib
+import uuid
+
 from flask import Flask, render_template, request, url_for, redirect, make_response
 from models import User, db
 
@@ -9,8 +12,49 @@ db.create_all()
 @app.route("/", methods=["GET"])
 def index():
     page_title = "Acht Ohm - Artist Page"
+
     return render_template("index.html",
                            page_title=page_title)
+
+
+@app.route("/login", methods=["POST"])
+def login():
+    name = request.form.get("user-name")
+    email = request.form.get("user-email")
+    password = request.form.get("user-password")
+
+    hash_pass = hashlib.sha256(password.encode()).hexdigest()
+
+    user = db.query(User).filter_by(email=email).first
+
+    if not user:
+        user = User(name=name, email=email, password=hash_pass)
+
+        try:
+            db.add(user)
+            db.commit()
+        except Exception:
+            print("Failed to commit db!")
+            return "Something went wrong!"
+
+    #if hash_pass != user.password:
+     #   return "The entered password seems to be wrong. Please go back and try again!"
+
+    elif hash_pass == user.password:
+        session_token = str(uuid.uuid4())
+
+        user.session_token = session_token
+        try:
+            db.add(user)
+            db.commit()
+        except Exception:
+            print("Failed to commit db!")
+            return "Something went wrong!"
+
+        response = make_response(redirect(url_for("shop")))
+        response.set_cookie("session_token", session_token, httponly=True, samesite='Strict')
+
+        return response
 
 
 @app.route("/tracks", methods=["GET"])
@@ -26,9 +70,17 @@ def tracks():
 def shop():
     page_title = "Acht Ohm - Shop"
     page_background = "/static/img/pexels-photo-2425692.jpeg"
+    session_token = request.cookies.get("session_token")
+
+    if session_token:
+        user = db.query(User).filter_by(session_token=session_token).first()
+    else:
+        user = None
+
     return render_template("shop.html",
                            page_title=page_title,
-                           page_background=page_background)
+                           page_background=page_background,
+                           user=user)
 
 
 @app.route("/contact", methods=["GET"])
@@ -62,8 +114,12 @@ def message():
 
     user = User(name=name, email=email, message=user_message)
 
-    db.add(user)
-    db.commit()
+    try:
+        db.add(user)
+        db.commit()
+    except Exception:
+        print("Failed to commit db!")
+        return "Something went wrong!"
 
     response = make_response(redirect(url_for("contact")))
     response.set_cookie("email", email)
@@ -72,6 +128,7 @@ def message():
     # -->  Springe in if = user Fall bei contact.
 
     return response
+
 
 if __name__ == '__main__':
     app.run(debug=True)

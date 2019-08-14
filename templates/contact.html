@@ -13,7 +13,8 @@
         <p>Hello {{user.name}}</p>
         <p>This is your email address: {{user.email}}</p>
         <p>This was your delivered message : {{user.message}}</p>
-    {% else %}
+
+        {% else %}
         <div class="form-style">
             <h1>Contact me</h1>
             <form method="post" action="/contact/message">
@@ -23,7 +24,7 @@
                 <button>Submit</button>
             </form>
         </div>
-    {% endif %}
+        {% endif %}
     </div>
 
     <div class="lineone"></div>
