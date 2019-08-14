@@ -19,6 +19,7 @@ class User(db.Model):
     name = db.Column(db.String)
     email = db.Column(db.String, unique=True)
     message = db.Column(db.String)
+    bool_message = db.Column(db.String)
     password = db.Column(db.String)
     session_token = db.Column(db.String)
 

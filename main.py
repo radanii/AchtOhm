@@ -17,7 +17,7 @@ def index():
                            page_title=page_title)
 
 
-@app.route("/login", methods=["POST"])
+@app.route("/login", methods=["GET", "POST"])
 def login():
     name = request.form.get("user-name")
     email = request.form.get("user-email")
@@ -25,10 +25,10 @@ def login():
 
     hash_pass = hashlib.sha256(password.encode()).hexdigest()
 
-    user = db.query(User).filter_by(email=email).first
+    user = db.query(User).filter_by(email=email).first()
 
     if not user:
-        user = User(name=name, email=email, password=hash_pass)
+        user = User(name=name, email=email, message=None, password=hash_pass)
 
         try:
             db.add(user)
@@ -37,7 +37,7 @@ def login():
             print("Failed to commit db!")
             return "Something went wrong!"
 
-    """if hash_pass != user.password:
+    if hash_pass != user.password:
         return "The entered password seems to be wrong. Please go back and try again!"
 
     elif hash_pass == user.password:
@@ -54,7 +54,7 @@ def login():
         response = make_response(redirect(url_for("shop")))
         response.set_cookie("session_token", session_token, httponly=True, samesite='Strict')
 
-        return response"""
+        return response
 
     return "sucessfully createtd db object!"
 
@@ -93,15 +93,18 @@ def contact():
     if email_address:
         user = db.query(User).filter_by(email=email_address).first()
         user_message = user.message
+        bool_message = user.bool_message
     else:
         user = None
         user_message = None
+        bool_message = "0"
 
     return render_template("contact.html",
                            page_title=page_title,
                            page_background=page_background,
                            user=user,
-                           message=user_message)
+                           message=user_message,
+                           bool=bool_message)
 
 
 @app.route("/contact/message", methods=["GET", "POST"])
@@ -109,24 +112,45 @@ def message():
     name = request.form.get("user-name")
     email = request.form.get("user-email")
     user_message = request.form.get("user-message")
-
+    bool_message = "1"
     # Execption: Cookies im browser gelöscht
     # if email != emails in db:
 
-    user = User(name=name, email=email, message=user_message)
+    user = db.query(User).filter_by(email=email).first()
 
-    try:
-        db.add(user)
-        db.commit()
-    except Exception:
-        print("Failed to commit db!")
-        return "Something went wrong!"
+    if not user:
 
-    response = make_response(redirect(url_for("contact")))
-    response.set_cookie("email", email)
+        user = User(name=name, email=email, message=user_message, bool_message=bool_message)
 
-    # else: Hinweis, dass email bereits in db existiert
-    # -->  Springe in if = user Fall bei contact.
+        try:
+            db.add(user)
+            db.commit()
+        except Exception:
+            print("Failed to commit db!")
+            return "Something went wrong!"
+
+        response = make_response(redirect(url_for("contact")))
+        response.set_cookie("email", email)
+
+    elif user.bool_message == "1":
+
+        response = make_response(redirect(url_for("contact")))
+        response.set_cookie("email", email)
+
+    else:
+
+        user.message = user_message
+        user.bool_message = "1"
+
+        try:
+            db.add(user)
+            db.commit()
+        except Exception:
+            print("Failed to commit db!")
+            return "Something went wrong!"
+
+        response = make_response(redirect(url_for("contact")))
+        response.set_cookie("email", email)
 
     return response
 
