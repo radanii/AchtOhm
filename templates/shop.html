@@ -10,9 +10,10 @@
 {% block body_contents %}
     <div class="lineone">
         {% if user %}
-        <p>Hello {{user.name}}</p><br>
-        <p>This is your login email address: {{user.email}}</p><br>
-        <p>Have fun spending your money on fairly great products</p><br>
+        <h1>Hello {{user.name}}<br />
+            This is your login email address: {{user.email}}<br />
+            Have fun spending your money on fairly great products<br />
+        </h1>
 
         {% else %}
         <div class="form-style">
