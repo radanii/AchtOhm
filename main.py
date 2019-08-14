@@ -37,7 +37,7 @@ def login():
             print("Failed to commit db!")
             return "Something went wrong!"
 
-    if hash_pass != user.password:
+    """if hash_pass != user.password:
         return "The entered password seems to be wrong. Please go back and try again!"
 
     elif hash_pass == user.password:
@@ -54,8 +54,9 @@ def login():
         response = make_response(redirect(url_for("shop")))
         response.set_cookie("session_token", session_token, httponly=True, samesite='Strict')
 
-        return response
+        return response"""
 
+    return "sucessfully createtd db object!"
 
 @app.route("/tracks", methods=["GET"])
 def tracks():
