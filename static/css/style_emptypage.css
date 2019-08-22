@@ -84,13 +84,21 @@ background{
 
 
 /*new struct*/
-.lineone{
-       text-shadow: 1px 1px 0.5px #444;
-       position: relative;
-       margin-top: 80px;
-       display: flex;
-       line-height: 2;
+.lineone {
+    text-shadow: 1px 1px 0.5px #444;
+    position: relative;
+    margin-top: 80px;
+    display: flex;
+    line-height: 2;
 }
+
+.centerbutton{
+        display: block;
+        position: center;
+        margin-left: auto;
+        margin-right: auto;
+}
+
 /**********************************************Social Media Buttons***************************************/
 
 .fa {

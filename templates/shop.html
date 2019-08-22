@@ -2,71 +2,78 @@
 
 
 {% block additional_stylesheets %}
-    <link rel="stylesheet" href="/static/css/style_emptypage.css">
-    <link rel="stylesheet" href="/static/css/style_form.css">
+<link rel="stylesheet" href="/static/css/style_emptypage.css">
+<link rel="stylesheet" href="/static/css/style_form.css">
 {% endblock %}
 
 
 {% block body_contents %}
-    <div class="lineone">
-        {% if user %}
-        <h1>Hello {{user.name}}<br />
-            This is your login email address: {{user.email}}<br />
-            Have fun spending your money on fairly great products<br />
-        </h1>
 
-        <script
-        src="https://www.paypal.com/sdk/js?client-id=ASFQSWdaUNf4UQR99fImi867BckGMxRMfqgQEYbMM9z-OAt8368XH757eoYvn0A-CiZjK3dfWY78u4Wj&currency=EUR">
-        </script>
-        
-        <div id="paypal-button-container"></div>
+{% if user %}
+<div class="lineone">
+    <h1>Hello {{user.name}}<br/>
+        This is your login email address: {{user.email}}<br/>
+        Have fun spending your money on fairly great products<br/>
+        <br/>
+        Make sure to leave a small donation of 1 EUR to support this artists content:
 
-          <script>
-            paypal.Buttons({
-            createOrder: function(data, actions) {
-              return actions.order.create({
-                purchase_units: [{
-                  amount: {
-                    value: '1.00'
-                  }
-                }]
-              });
-            },
-            onApprove: function(data, actions) {
-              // Capture the funds from the transaction
-              return actions.order.capture().then(function(details) {
-                // Show a success message to your buyer
-                alert('Transaction completed by ' + details.payer.name.given_name);
-                // Call your server to save the transaction
-                return fetch('/paypal-transaction-complete', {
-                  method: 'post',
-                  headers: {
-                    'content-type': 'application/json'
-                  },
-                  body: JSON.stringify({
-                    orderID: data.orderID
-                  })
+    </h1>
+</div>
+<div class="lineone centerbutton">
+    <script
+            src="https://www.paypal.com/sdk/js?client-id=ASFQSWdaUNf4UQR99fImi867BckGMxRMfqgQEYbMM9z-OAt8368XH757eoYvn0A-CiZjK3dfWY78u4Wj&currency=EUR">
+    </script>
+
+    <div id="paypal-button-container"></div>
+
+    <script>
+        paypal.Buttons({
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '1.00'
+                        }
+                    }]
                 });
-              });
+            },
+            onApprove: function (data, actions) {
+                // Capture the funds from the transaction
+                return actions.order.capture().then(function (details) {
+                    // Show a success message to your buyer
+                    alert('Transaction completed by ' + details.payer.name.given_name);
+                    // Call your server to save the transaction
+                    return fetch('/paypal-transaction-complete', {
+                        method: 'post',
+                        headers: {
+                            'content-type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            orderID: data.orderID
+                        })
+                    });
+                });
             }
-          }).render('#paypal-button-container');
-          </script>
-
-        {% else %}
-        <div class="form-style">
-            <h1>LOGIN:</h1>
-            <form method="post" action="/login">
-                <input type="text" name="user-name" placeholder="Enter your name"><br>
-                <input type="email" name="user-email" placeholder="Enter your email address"><br>
-                <input type="password" name="user-password" placeholder="Enter your password"><br>
-                <button>Submit</button>
-            </form>
-        </div>
-        {% endif %}
+        }).render('#paypal-button-container');
+    </script>
+</div>
+{% else %}
+<div class="lineone">
+    <div class="form-style">
+        <h1>LOGIN:</h1>
+        <form method="post" action="/login">
+            <input type="text" name="user-name" placeholder="Enter your name"><br>
+            <input type="email" name="user-email" placeholder="Enter your email address"><br>
+            <input type="password" name="user-password" placeholder="Enter your password"><br>
+            <button>Submit</button>
+        </form>
     </div>
-    <div class="lineone"></div>
-    <div class="lineone"></div>
-    <div class="lineone"></div>
+</div>
+{% endif %}
+</div>
+<div class="lineone"></div>
+<div class="lineone"></div>
+<div class="lineone"></div>
 {% endblock %}
 
 
