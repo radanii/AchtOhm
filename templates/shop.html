@@ -15,6 +15,39 @@
             Have fun spending your money on fairly great products<br />
         </h1>
 
+        <div id="paypal-button-container"></div>
+
+          <script>
+            paypal.Buttons({
+            createOrder: function(data, actions) {
+              return actions.order.create({
+                purchase_units: [{
+                  amount: {
+                    value: '1.00'
+                  }
+                }]
+              });
+            },
+            onApprove: function(data, actions) {
+              // Capture the funds from the transaction
+              return actions.order.capture().then(function(details) {
+                // Show a success message to your buyer
+                alert('Transaction completed by ' + details.payer.name.given_name);
+                // Call your server to save the transaction
+                return fetch('/paypal-transaction-complete', {
+                  method: 'post',
+                  headers: {
+                    'content-type': 'application/json'
+                  },
+                  body: JSON.stringify({
+                    orderID: data.orderID
+                  })
+                });
+              });
+            }
+          }).render('#paypal-button-container');
+          </script>
+
         {% else %}
         <div class="form-style">
             <h1>LOGIN:</h1>
@@ -34,4 +67,8 @@
 
 
 {% block additional_scripts %}
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=ASFQSWdaUNf4UQR99fImi867BckGMxRMfqgQEYbMM9z-OAt8368XH757eoYvn0A-CiZjK3dfWY78u4Wj&currency=EUR">
+    </script>
+
 {% endblock %}
